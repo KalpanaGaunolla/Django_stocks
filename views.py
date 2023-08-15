@@ -3,7 +3,7 @@ from .models import stock
 from django.contrib import messages
 from .forms import Stockform
 
-# Create your views here.
+
 def home(request):
     import requests
     import json
